@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+h1{
+  
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 66px;
+   color: white;
+    
+}
+h3{
+    font-size: 24px;
+    font-style:normal ;
+    font-weight: 600;
+    line-height: 36px;
+}
+.info-cont_btn {
+    height:46px;
+    width:186px;
+    background-color: #FBC508;
+    font-size: 16px;
+    padding: 10px 5px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 8px;
+    display: inline;
+  
+}
+.info-cont_btn:hover{
+    background-color: #ffd900;
+    color:#ffffff
+    
+}
+.info-cont_btn2 {
+    height:46px;
+    width:186px;
+    position: relative;
+    color: white;
+    font-size: 16px;
+    padding: 11px ;
+    font-style: normal;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    display: inline; 
+    background-image: linear-gradient(to left,transparent,transparent 50%,#FBC508 50%,#ffd900);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    border: 1px solid #ffffff;
+}
+.info-cont_btn2:hover {
+    background-position: 0 0;
+    color:rgb(0, 0, 0);
+    border: 1px solid #ffd900;
+
+        
+    }   
+.test {
+    background-image: url(../img/noise.png);
+    background-color:#2B0955 ;
+}
+.submit {
+    height:45px;
+    width:122px;
+    background-color: #ffffff;
+    padding: 10px 5px;
+    font-style: normal;
+    font-weight: 600;
+    display: inline;
+    border-color:#ffffff;
+    color: #2B0955;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: thick;
+
+}
+.submit:hover {
+    background-color:#D2C0DF ;
+    color: #2B0955;
+}
+.form{
+    height: 45px; 
+    width: 243px;
+    background-color:inherit;  
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    color:white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.form:focus {
+    background-color: white;
+    border-color:white
+}
